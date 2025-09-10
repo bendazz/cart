@@ -1,0 +1,237 @@
+{
+  "feature_names": [
+    "sepal length (cm)",
+    "sepal width (cm)",
+    "petal length (cm)",
+    "petal width (cm)"
+  ],
+  "target_names": [
+    "setosa",
+    "versicolor",
+    "virginica"
+  ],
+  "samples": [
+    {
+      "index": 5,
+      "features": [
+        5.4,
+        3.9,
+        1.7,
+        0.4
+      ],
+      "target": 0,
+      "target_name": "setosa"
+    },
+    {
+      "index": 20,
+      "features": [
+        5.4,
+        3.4,
+        1.7,
+        0.2
+      ],
+      "target": 0,
+      "target_name": "setosa"
+    },
+    {
+      "index": 25,
+      "features": [
+        5.0,
+        3.0,
+        1.6,
+        0.2
+      ],
+      "target": 0,
+      "target_name": "setosa"
+    },
+    {
+      "index": 27,
+      "features": [
+        5.2,
+        3.5,
+        1.5,
+        0.2
+      ],
+      "target": 0,
+      "target_name": "setosa"
+    },
+    {
+      "index": 39,
+      "features": [
+        5.1,
+        3.4,
+        1.5,
+        0.2
+      ],
+      "target": 0,
+      "target_name": "setosa"
+    },
+    {
+      "index": 47,
+      "features": [
+        4.6,
+        3.2,
+        1.4,
+        0.2
+      ],
+      "target": 0,
+      "target_name": "setosa"
+    },
+    {
+      "index": 49,
+      "features": [
+        5.0,
+        3.3,
+        1.4,
+        0.2
+      ],
+      "target": 0,
+      "target_name": "setosa"
+    },
+    {
+      "index": 50,
+      "features": [
+        7.0,
+        3.2,
+        4.7,
+        1.4
+      ],
+      "target": 1,
+      "target_name": "versicolor"
+    },
+    {
+      "index": 61,
+      "features": [
+        5.9,
+        3.0,
+        4.2,
+        1.5
+      ],
+      "target": 1,
+      "target_name": "versicolor"
+    },
+    {
+      "index": 68,
+      "features": [
+        6.2,
+        2.2,
+        4.5,
+        1.5
+      ],
+      "target": 1,
+      "target_name": "versicolor"
+    },
+    {
+      "index": 74,
+      "features": [
+        6.4,
+        2.9,
+        4.3,
+        1.3
+      ],
+      "target": 1,
+      "target_name": "versicolor"
+    },
+    {
+      "index": 84,
+      "features": [
+        5.4,
+        3.0,
+        4.5,
+        1.5
+      ],
+      "target": 1,
+      "target_name": "versicolor"
+    },
+    {
+      "index": 87,
+      "features": [
+        6.3,
+        2.3,
+        4.4,
+        1.3
+      ],
+      "target": 1,
+      "target_name": "versicolor"
+    },
+    {
+      "index": 98,
+      "features": [
+        5.1,
+        2.5,
+        3.0,
+        1.1
+      ],
+      "target": 1,
+      "target_name": "versicolor"
+    },
+    {
+      "index": 106,
+      "features": [
+        4.9,
+        2.5,
+        4.5,
+        1.7
+      ],
+      "target": 2,
+      "target_name": "virginica"
+    },
+    {
+      "index": 107,
+      "features": [
+        7.3,
+        2.9,
+        6.3,
+        1.8
+      ],
+      "target": 2,
+      "target_name": "virginica"
+    },
+    {
+      "index": 129,
+      "features": [
+        7.2,
+        3.0,
+        5.8,
+        1.6
+      ],
+      "target": 2,
+      "target_name": "virginica"
+    },
+    {
+      "index": 132,
+      "features": [
+        6.4,
+        2.8,
+        5.6,
+        2.2
+      ],
+      "target": 2,
+      "target_name": "virginica"
+    },
+    {
+      "index": 142,
+      "features": [
+        5.8,
+        2.7,
+        5.1,
+        1.9
+      ],
+      "target": 2,
+      "target_name": "virginica"
+    },
+    {
+      "index": 143,
+      "features": [
+        6.8,
+        3.2,
+        5.9,
+        2.3
+      ],
+      "target": 2,
+      "target_name": "virginica"
+    }
+  ],
+  "total_samples": 20,
+  "random_seed": 42
+}
