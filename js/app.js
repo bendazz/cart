@@ -210,12 +210,20 @@ function renderFeatureProjection(rowEl, featureIndex) {
     label.textContent = v.toFixed(2);
     container.appendChild(label);
   }
+  // Prepare stacking to avoid overlap when multiple samples share (nearly) the same x position
+  const innerWidth = Math.max(0, (container.clientWidth || 0) - 16);
+  const stackCounts = new Map(); // key: rounded x px, value: next stack depth
+  const STACK_GAP = 14; // px between stacked circles
   samples.forEach(s => {
     const val = s.features[featureIndex];
     const frac = (val - scaledMin) / (scaledMax - scaledMin);
+    const xPx = Math.max(0, Math.min(innerWidth, Math.round(frac * innerWidth)));
+    const depth = stackCounts.get(xPx) || 0;
+    stackCounts.set(xPx, depth + 1);
     const circle = document.createElement('div');
     circle.className = 'sample-circle';
     circle.style.left = `calc(${(frac*100)}% + 8px)`;
+    circle.style.bottom = `${20 + depth * STACK_GAP}px`;
     circle.style.background = COLORS[s.target];
     circle.title = `idx ${s.index}\n${featureName}=${val}\nclass=${state.targetNames[s.target]}`;
     circle.textContent = s.target;
